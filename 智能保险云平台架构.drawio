@@ -44,7 +44,7 @@
           <mxGeometry x="820" y="-50" width="30" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xzhucQesnsCn1omH9_tc-24" value="监控&amp;amp;报警" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;strokeColor=#CCFFFF;fillColor=#FFCCE6;align=center;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="860" y="-150" width="80" height="680" as="geometry" />
+          <mxGeometry x="860" y="-150" width="111" height="680" as="geometry" />
         </mxCell>
         <mxCell id="xzhucQesnsCn1omH9_tc-26" value="API层" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8CECC;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="-30" y="-50" width="55" height="80" as="geometry" />
@@ -207,6 +207,21 @@
         </mxCell>
         <mxCell id="4TPlroOe607ObJDRauhU-50" value="logback" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="565" y="300" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4TPlroOe607ObJDRauhU-51" value="&lt;span style=&quot;color: rgb(89, 89, 89); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Tahoma, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft Yahei&amp;quot;, Arial, &amp;quot;Hiragino Sans GB&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;Prometheus&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="868" y="-93" width="93" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="4TPlroOe607ObJDRauhU-52" value="&lt;span style=&quot;color: rgb(89, 89, 89); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Tahoma, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft Yahei&amp;quot;, Arial, &amp;quot;Hiragino Sans GB&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 16px; text-align: left; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;大数据业务监控&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="869" y="-32" width="93" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4TPlroOe607ObJDRauhU-53" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;-apple-system, system-ui, Helvetica Neue, Tahoma, PingFang SC, Microsoft Yahei, Arial, Hiragino Sans GB, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji&quot; color=&quot;#595959&quot;&gt;&lt;span style=&quot;font-size: 16px; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;业务日志监控&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="871" y="37" width="93" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4TPlroOe607ObJDRauhU-54" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;-apple-system, system-ui, Helvetica Neue, Tahoma, PingFang SC, Microsoft Yahei, Arial, Hiragino Sans GB, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji&quot; color=&quot;#595959&quot;&gt;&lt;span style=&quot;font-size: 16px; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;服务存活监控&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="871" y="105" width="93" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4TPlroOe607ObJDRauhU-55" value="flowable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="662" y="300" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
