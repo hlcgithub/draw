@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" border="50" scale="3" compressed="false" locked="false" version="26.2.3">
   <diagram name="Blank" id="YmL12bMKpDGza6XwsDPr">
-    <mxGraphModel dx="1828" dy="790" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="1" shadow="0">
+    <mxGraphModel dx="2228" dy="790" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="1" shadow="0">
       <root>
         <mxCell id="X5NqExCQtvZxIxQ7pmgY-0" />
         <mxCell id="1" parent="X5NqExCQtvZxIxQ7pmgY-0" />
@@ -347,26 +347,26 @@
             <mxPoint x="-764" y="1365" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wWFJv-c2vGmDEsUAr_7z-1" value="使用场景：&lt;div&gt;- 排行榜&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=left;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" visible="0" parent="1">
+        <mxCell id="wWFJv-c2vGmDEsUAr_7z-1" value="使用场景：&lt;div&gt;- 排行榜&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=left;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1" visible="0">
           <mxGeometry x="-587" y="1452" width="95" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="wWFJv-c2vGmDEsUAr_7z-2" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.032;exitY=0.373;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" visible="0" target="wWFJv-c2vGmDEsUAr_7z-1" parent="1" source="mDBWhc2jnKY0q0b3ZduN-16">
+        <mxCell id="wWFJv-c2vGmDEsUAr_7z-2" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0.032;exitY=0.373;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="mDBWhc2jnKY0q0b3ZduN-16" target="wWFJv-c2vGmDEsUAr_7z-1" edge="1" visible="0">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-620" y="1513" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wWFJv-c2vGmDEsUAr_7z-3" value="使用场景：&lt;div&gt;- 做权限&lt;/div&gt;&lt;div&gt;- 做统计&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=left;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" visible="0" parent="1">
+        <mxCell id="wWFJv-c2vGmDEsUAr_7z-3" value="使用场景：&lt;div&gt;- 做权限&lt;/div&gt;&lt;div&gt;- 做统计&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=left;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1" visible="0">
           <mxGeometry x="-578" y="1561" width="95" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="wWFJv-c2vGmDEsUAr_7z-4" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" visible="0" target="wWFJv-c2vGmDEsUAr_7z-3" parent="1" source="mDBWhc2jnKY0q0b3ZduN-18">
+        <mxCell id="wWFJv-c2vGmDEsUAr_7z-4" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="mDBWhc2jnKY0q0b3ZduN-18" target="wWFJv-c2vGmDEsUAr_7z-3" edge="1" visible="0">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-410" y="1616" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wWFJv-c2vGmDEsUAr_7z-5" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;分布式锁&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=1;treeMoving=1;" vertex="1" parent="1">
+        <mxCell id="wWFJv-c2vGmDEsUAr_7z-5" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;分布式锁&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=1;treeMoving=1;" parent="1" vertex="1">
           <mxGeometry x="-102" y="983" width="186" height="83" as="geometry" />
         </mxCell>
-        <mxCell id="wWFJv-c2vGmDEsUAr_7z-6" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="mDBWhc2jnKY0q0b3ZduN-3" target="wWFJv-c2vGmDEsUAr_7z-5">
+        <mxCell id="wWFJv-c2vGmDEsUAr_7z-6" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" parent="1" source="mDBWhc2jnKY0q0b3ZduN-3" target="wWFJv-c2vGmDEsUAr_7z-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kl9yPUdAR2kA5Z42WzvT-131" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;GC&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=1;treeMoving=1;" parent="1" vertex="1" collapsed="1" visible="0">
@@ -659,12 +659,20 @@
         <mxCell id="mDBWhc2jnKY0q0b3ZduN-30" value="参数：&lt;div&gt;核心线程数&lt;/div&gt;&lt;div&gt;最大线程数&lt;/div&gt;&lt;div&gt;等待时间&lt;/div&gt;&lt;div&gt;等待时间单位&lt;/div&gt;&lt;div&gt;阻塞队列&lt;/div&gt;&lt;div&gt;创建线程工厂&lt;/div&gt;&lt;div&gt;阻塞队列已满时拒绝策略&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=left;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1" visible="0">
           <mxGeometry x="-559" y="103" width="167" height="127" as="geometry" />
         </mxCell>
-        <mxCell id="wWFJv-c2vGmDEsUAr_7z-7" value="锁标记使用key实现&lt;div&gt;可见性基于Redis命令单线程执行&lt;/div&gt;&lt;div&gt;原子性使用lua脚本实现&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=left;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="-354" y="932" width="210" height="55" as="geometry" />
+        <mxCell id="wWFJv-c2vGmDEsUAr_7z-7" value="锁标记使用key实现&lt;div&gt;可见性基于Redis命令单线程执行&lt;/div&gt;&lt;div&gt;原子性使用lua脚本+hash数据类型实现&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=left;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="-408" y="923" width="240" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="wWFJv-c2vGmDEsUAr_7z-8" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="wWFJv-c2vGmDEsUAr_7z-7" parent="1" source="wWFJv-c2vGmDEsUAr_7z-5">
+        <mxCell id="wWFJv-c2vGmDEsUAr_7z-8" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="wWFJv-c2vGmDEsUAr_7z-5" target="wWFJv-c2vGmDEsUAr_7z-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-330" y="1007" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SRsEzwbTb2j7ltFlLUqS-1" value="Redisson分布式锁实现原理：&lt;div&gt;拿锁&lt;/div&gt;&lt;div&gt;看门狗&lt;/div&gt;&lt;div&gt;自旋&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=left;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-433" y="1026" width="193" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SRsEzwbTb2j7ltFlLUqS-2" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" target="SRsEzwbTb2j7ltFlLUqS-1" parent="1" source="wWFJv-c2vGmDEsUAr_7z-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-127" y="1143" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
