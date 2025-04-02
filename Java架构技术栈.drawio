@@ -369,7 +369,7 @@
         <mxCell id="wWFJv-c2vGmDEsUAr_7z-6" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" parent="1" source="mDBWhc2jnKY0q0b3ZduN-3" target="wWFJv-c2vGmDEsUAr_7z-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kl9yPUdAR2kA5Z42WzvT-131" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;GC&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=1;treeMoving=1;" parent="1" vertex="1" collapsed="1" visible="0">
+        <mxCell id="kl9yPUdAR2kA5Z42WzvT-131" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;GC&lt;/span&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=1;treeMoving=1;" parent="1" vertex="1" visible="0">
           <mxGeometry x="-63" y="263" width="120" height="69" as="geometry" />
         </mxCell>
         <mxCell id="kl9yPUdAR2kA5Z42WzvT-132" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" parent="1" source="kl9yPUdAR2kA5Z42WzvT-110" target="kl9yPUdAR2kA5Z42WzvT-131" edge="1" visible="0">
@@ -667,10 +667,10 @@
             <mxPoint x="-330" y="1007" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SRsEzwbTb2j7ltFlLUqS-1" value="Redisson分布式锁实现原理：&lt;div&gt;拿锁&lt;/div&gt;&lt;div&gt;看门狗&lt;/div&gt;&lt;div&gt;自旋&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=left;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+        <mxCell id="SRsEzwbTb2j7ltFlLUqS-1" value="Redisson分布式锁实现原理：&lt;div&gt;拿锁&lt;/div&gt;&lt;div&gt;看门狗（hash时间轮算法）&lt;/div&gt;&lt;div&gt;自旋&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=left;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="-433" y="1026" width="193" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="SRsEzwbTb2j7ltFlLUqS-2" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" edge="1" target="SRsEzwbTb2j7ltFlLUqS-1" parent="1" source="wWFJv-c2vGmDEsUAr_7z-5">
+        <mxCell id="SRsEzwbTb2j7ltFlLUqS-2" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;" parent="1" source="wWFJv-c2vGmDEsUAr_7z-5" target="SRsEzwbTb2j7ltFlLUqS-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-127" y="1143" as="sourcePoint" />
           </mxGeometry>
