@@ -54,6 +54,9 @@
         <mxCell id="Xx1ZGW-cqv-4vBmC9HKy-19" value="null" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="334" y="378" width="40" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="Xx1ZGW-cqv-4vBmC9HKy-23" value="dictEntry **ht_table&lt;div style=&quot;text-wrap-mode: nowrap;&quot;&gt;&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;指针数组的数组&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="220" width="190" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
