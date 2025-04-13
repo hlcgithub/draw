@@ -26,14 +26,14 @@
         <mxCell id="Xx1ZGW-cqv-4vBmC9HKy-5" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="294" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Xx1ZGW-cqv-4vBmC9HKy-7" value="dictEntry ht_table[0]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="240" y="170" width="150" height="30" as="geometry" />
+        <mxCell id="Xx1ZGW-cqv-4vBmC9HKy-7" value="dictEntry" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="275" y="170" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Xx1ZGW-cqv-4vBmC9HKy-8" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="294" y="380" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Xx1ZGW-cqv-4vBmC9HKy-10" value="dictEntry&amp;nbsp;ht_table[1]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="210" y="350" width="150" height="30" as="geometry" />
+        <mxCell id="Xx1ZGW-cqv-4vBmC9HKy-10" value="dictEntry" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="270" y="350" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Xx1ZGW-cqv-4vBmC9HKy-11" value="next" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="314" y="210" width="80" height="40" as="geometry" />
