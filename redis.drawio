@@ -72,7 +72,7 @@
           <mxGeometry x="325" y="40" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Xx1ZGW-cqv-4vBmC9HKy-31" value="ht_table扩容：&lt;div&gt;hash槽的容量是通过容量的指数来计算的。ht_size_exp用来存储容量的指数&lt;/div&gt;&lt;div&gt;扩容时，指数的取值逻辑：&lt;br&gt;&lt;div&gt;1. 如果size小于DICT_HT_INITIAL_SIZE（4），则返回2&lt;/div&gt;&lt;/div&gt;&lt;div&gt;2. 如果size大于等于long的最大bit数，则返回63&lt;/div&gt;&lt;div&gt;3. 如果size小于，则返回63 - size的前置0bit数，确保指数不会超出能处理的最大bit数，防止取数组元素溢出&lt;/div&gt;&lt;div&gt;扩容时机：添加数据&lt;/div&gt;&lt;div&gt;扩容前置条件：&lt;/div&gt;&lt;div&gt;1. size大于等于数组容量&lt;/div&gt;&lt;div&gt;2. 使用率大于dict_force_resize_ratio = 5&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#E6E6E6;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="74" y="640" width="590" height="160" as="geometry" />
+          <mxGeometry x="50" y="490" width="590" height="160" as="geometry" />
         </mxCell>
         <mxCell id="Xx1ZGW-cqv-4vBmC9HKy-32" value="1" style="whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="310" y="140" width="120" height="60" as="geometry" />
