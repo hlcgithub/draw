@@ -580,6 +580,14 @@
         <mxCell id="1red-RzlP76FGumrQq5m-206" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.003;entryY=0.555;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1red-RzlP76FGumrQq5m-203" target="1red-RzlP76FGumrQq5m-205">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="1red-RzlP76FGumrQq5m-208" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1red-RzlP76FGumrQq5m-207">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1720" y="6890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1red-RzlP76FGumrQq5m-207" value="这里会判断要获取的bean是否是factory bean" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="-1831" y="6950" width="260" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
