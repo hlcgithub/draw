@@ -92,6 +92,21 @@
         <mxCell id="Xx1ZGW-cqv-4vBmC9HKy-38" value="next" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="330" y="270" width="80" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="38tQ8B1ztES0Wx4OU13c-1" value="数据类型hash的底层结构ziplist" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="-285" y="740" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="38tQ8B1ztES0Wx4OU13c-2" value="zlbytes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-235" y="790" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="38tQ8B1ztES0Wx4OU13c-3" value="zltail" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-235" y="820" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="38tQ8B1ztES0Wx4OU13c-4" value="zllen" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-235" y="850" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="38tQ8B1ztES0Wx4OU13c-5" value="entry[]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-235" y="880" width="115" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
