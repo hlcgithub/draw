@@ -1,9 +1,56 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.13">
   <diagram name="第 1 页" id="NTi-1oUGE1k_-Yd-XdE5">
-    <mxGraphModel>
+    <mxGraphModel dx="1236" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="L7R5cwJ3fnDFQg3kvtcJ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L7R5cwJ3fnDFQg3kvtcJ-1" target="L7R5cwJ3fnDFQg3kvtcJ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L7R5cwJ3fnDFQg3kvtcJ-5" value="@import引入AutoConfigurationImportSelector类" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L7R5cwJ3fnDFQg3kvtcJ-3">
+          <mxGeometry x="-0.125" y="1" relative="1" as="geometry">
+            <mxPoint x="9" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L7R5cwJ3fnDFQg3kvtcJ-1" value="注解EnableAutoConfiguration" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="160" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L7R5cwJ3fnDFQg3kvtcJ-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L7R5cwJ3fnDFQg3kvtcJ-2" target="L7R5cwJ3fnDFQg3kvtcJ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L7R5cwJ3fnDFQg3kvtcJ-2" value="调用&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;AutoConfigurationImportSelector.selectImports&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="300" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L7R5cwJ3fnDFQg3kvtcJ-6" value="Spring boot 自动装配原理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=21;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="50" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L7R5cwJ3fnDFQg3kvtcJ-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L7R5cwJ3fnDFQg3kvtcJ-7" target="L7R5cwJ3fnDFQg3kvtcJ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L7R5cwJ3fnDFQg3kvtcJ-7" value="调用&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;AutoConfigurationImportSelector.&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;getAutoConfigurationEntry&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="440" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L7R5cwJ3fnDFQg3kvtcJ-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L7R5cwJ3fnDFQg3kvtcJ-9" target="L7R5cwJ3fnDFQg3kvtcJ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L7R5cwJ3fnDFQg3kvtcJ-9" value="调用&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;SpringFactoriesLoader.&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;loadFactoryNames&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="580" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L7R5cwJ3fnDFQg3kvtcJ-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L7R5cwJ3fnDFQg3kvtcJ-11" target="L7R5cwJ3fnDFQg3kvtcJ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L7R5cwJ3fnDFQg3kvtcJ-11" value="加载META-INF/spring.factories 文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="720" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L7R5cwJ3fnDFQg3kvtcJ-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="L7R5cwJ3fnDFQg3kvtcJ-13" target="L7R5cwJ3fnDFQg3kvtcJ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L7R5cwJ3fnDFQg3kvtcJ-13" value="返回文件中的bean 定义" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="860" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L7R5cwJ3fnDFQg3kvtcJ-15" value="交给Spring ioc容器去初始化这些beans" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="860" width="240" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
