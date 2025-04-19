@@ -25,8 +25,14 @@
         <mxCell id="5gbEk6pbdHkCbltCyMtl-4" value="FeignClientsRegistrar.&lt;div&gt;registerBeanDefinitions&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="680" width="190" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="_qP25lWG1AvioM6Vb6A6-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5gbEk6pbdHkCbltCyMtl-6" target="_qP25lWG1AvioM6Vb6A6-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5gbEk6pbdHkCbltCyMtl-6" value="扫描出所有FeignClient的bean 定义&lt;div&gt;并添加到工厂里&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="820" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_qP25lWG1AvioM6Vb6A6-1" value="根据targeter来动态生成代理对象" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="820" width="190" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
