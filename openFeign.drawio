@@ -4,8 +4,23 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="EnDtAUhqjSUgPeUe0Z8r-2" value="&lt;div&gt;&lt;b&gt;思考：&lt;/b&gt;&lt;/div&gt;由@FeignClient修饰的接口在调用端可通过@Autowire自动注入，那么这些对象肯定存在于Spring容器中&lt;div&gt;那这些接口Spring是如何将其放入其容器中呢？还有注入的对象是什么对象？&lt;/div&gt;&lt;div&gt;首先我们来看看Spring要创建一个对象有哪些方式。&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Spring 创建bean的方式&lt;/span&gt;&lt;div style=&quot;color: rgb(0, 0, 0);&quot;&gt;1. 通过简单工厂、静态工厂创建 如：@Component +&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;@Bean&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0);&quot;&gt;2. 通过构造器创建 如：@Component + @Import + 普通类/实现ImportSelector接口、&lt;span style=&quot;background-color: transparent;&quot;&gt;实现BeanDefinitionRegistryPostProcessor接口，&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;动态添加beanDefinition&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0);&quot;&gt;3. FactoryBean.getObject()&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=#666666;fillColor=#f5f5f5;fontSize=16;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="80" y="40" width="970" height="190" as="geometry" />
+        <mxCell id="EnDtAUhqjSUgPeUe0Z8r-2" value="&lt;div&gt;&lt;b&gt;思考：&lt;/b&gt;&lt;/div&gt;由@FeignClient修饰的接口在调用端可通过@Autowire自动注入，那么这些对象肯定存在于Spring容器中&lt;div&gt;那这些接口Spring是如何将其放入其容器中呢？还有注入的对象是什么对象？&lt;/div&gt;&lt;div&gt;首先我们来看看Spring要创建一个对象有哪些方式。&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Spring 创建bean的方式&lt;/span&gt;&lt;div style=&quot;color: rgb(0, 0, 0);&quot;&gt;1. 通过简单工厂、静态工厂创建 如：@Component +&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;@Bean&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0);&quot;&gt;2. 通过构造器创建 如：@Component + @Import + 普通类/实现ImportSelector接口、&lt;span style=&quot;background-color: transparent;&quot;&gt;实现BeanDefinitionRegistryPostProcessor接口，&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;动态添加beanDefinition&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0);&quot;&gt;3. FactoryBean.getObject()&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0);&quot;&gt;那如何通过接口来创建一个bean实例？当然是通过动态代理&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;b&gt;思路：&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0);&quot;&gt;1. 扫描到所有@FeignClient的类&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0);&quot;&gt;2. 用它创建一个代理类&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0);&quot;&gt;3. 需要一个handler&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0);&quot;&gt;4. 使用@Import + 普通类的方式(ImportBeanDefinitionRegistrar)，来动态添加BeanDefinition&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=#666666;fillColor=#f5f5f5;fontSize=16;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="80" y="40" width="970" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="5gbEk6pbdHkCbltCyMtl-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5gbEk6pbdHkCbltCyMtl-1" target="5gbEk6pbdHkCbltCyMtl-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5gbEk6pbdHkCbltCyMtl-1" value="@EnableFeignClient" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="400" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5gbEk6pbdHkCbltCyMtl-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5gbEk6pbdHkCbltCyMtl-2" target="5gbEk6pbdHkCbltCyMtl-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5gbEk6pbdHkCbltCyMtl-2" value="@Import({FeignClientsRegistrar})" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="540" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5gbEk6pbdHkCbltCyMtl-4" value="返回" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="680" width="190" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
