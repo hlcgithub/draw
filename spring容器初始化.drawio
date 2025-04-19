@@ -550,6 +550,36 @@
         <mxCell id="1red-RzlP76FGumrQq5m-196" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.381;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1red-RzlP76FGumrQq5m-194" target="1red-RzlP76FGumrQq5m-190">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="1red-RzlP76FGumrQq5m-197" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 23px;&quot;&gt;FactoryBean创建bean流程&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;fontSize=28;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-2129" y="6750" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1red-RzlP76FGumrQq5m-200" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1red-RzlP76FGumrQq5m-198" target="1red-RzlP76FGumrQq5m-199">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1red-RzlP76FGumrQq5m-198" value="按照正常流程完成bean创建后" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2120" y="6850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1red-RzlP76FGumrQq5m-202" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1red-RzlP76FGumrQq5m-199" target="1red-RzlP76FGumrQq5m-201">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1red-RzlP76FGumrQq5m-199" value="调用getObjectForBeanInstance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1920" y="6850" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1red-RzlP76FGumrQq5m-204" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1red-RzlP76FGumrQq5m-201" target="1red-RzlP76FGumrQq5m-203">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1red-RzlP76FGumrQq5m-201" value="调用getObjectFormFactoryBean" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1680" y="6850" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1red-RzlP76FGumrQq5m-203" value="调用doGetObjectFormFactoryBean" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1440" y="6850" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1red-RzlP76FGumrQq5m-205" value="&lt;div style=&quot;background-color:#ffffff;color:#080808&quot;&gt;&lt;pre style=&quot;font-family:&#39;Inconsolata for Powerline&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#0033b3;&quot;&gt;if &lt;/span&gt;(&lt;span style=&quot;color:#000000;&quot;&gt;System&lt;/span&gt;.&lt;span style=&quot;font-style:italic;&quot;&gt;getSecurityManager&lt;/span&gt;() != &lt;span style=&quot;color:#0033b3;&quot;&gt;null&lt;/span&gt;) {&lt;br&gt;    &lt;span style=&quot;color:#000000;&quot;&gt;AccessControlContext acc &lt;/span&gt;= getAccessControlContext();&lt;br&gt;    &lt;span style=&quot;color:#0033b3;&quot;&gt;try &lt;/span&gt;{&lt;br&gt;       &lt;span style=&quot;color:#000000;&quot;&gt;object &lt;/span&gt;= &lt;span style=&quot;color:#000000;&quot;&gt;AccessController&lt;/span&gt;.&lt;span style=&quot;font-style:italic;&quot;&gt;doPrivileged&lt;/span&gt;((&lt;span style=&quot;color:#000000;&quot;&gt;PrivilegedExceptionAction&lt;/span&gt;&amp;lt;&lt;span style=&quot;color:#000000;&quot;&gt;Object&lt;/span&gt;&amp;gt;) &lt;span style=&quot;color:#000000;&quot;&gt;factory&lt;/span&gt;::getObject, &lt;span style=&quot;color:#000000;&quot;&gt;acc&lt;/span&gt;);&lt;br&gt;    }&lt;br&gt;    &lt;span style=&quot;color:#0033b3;&quot;&gt;catch &lt;/span&gt;(&lt;span style=&quot;color:#000000;&quot;&gt;PrivilegedActionException pae&lt;/span&gt;) {&lt;br&gt;       &lt;span style=&quot;color:#0033b3;&quot;&gt;throw &lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;pae&lt;/span&gt;.getException();&lt;br&gt;    }&lt;br&gt;}&lt;br&gt;&lt;span style=&quot;color:#0033b3;&quot;&gt;else &lt;/span&gt;{&lt;br&gt;    &lt;span style=&quot;color:#000000;&quot;&gt;object &lt;/span&gt;= &lt;span style=&quot;color:#000000;&quot;&gt;factory&lt;/span&gt;.getObject();&lt;br&gt;}&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-1190" y="6760" width="860" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="1red-RzlP76FGumrQq5m-206" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.003;entryY=0.555;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1red-RzlP76FGumrQq5m-203" target="1red-RzlP76FGumrQq5m-205">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
