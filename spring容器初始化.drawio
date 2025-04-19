@@ -592,40 +592,52 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GdvJMNKt0AZ4zb3KIAU6-1" value="AnnotationConfigUtils,&lt;div&gt;registerAnnotationConfigProcessor&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2047" y="3730" width="197" height="60" as="geometry" />
+          <mxGeometry x="-2080" y="3730" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GdvJMNKt0AZ4zb3KIAU6-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GdvJMNKt0AZ4zb3KIAU6-2" target="GdvJMNKt0AZ4zb3KIAU6-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GdvJMNKt0AZ4zb3KIAU6-2" value="添加internalConfigurationAnnotationProcessor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GdvJMNKt0AZ4zb3KIAU6-2" value="添加ConfigurationClassPostProcessor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2078.5" y="3860" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GdvJMNKt0AZ4zb3KIAU6-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GdvJMNKt0AZ4zb3KIAU6-4" target="GdvJMNKt0AZ4zb3KIAU6-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GdvJMNKt0AZ4zb3KIAU6-4" value="添加internalAutowiredAnnotationProcessor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GdvJMNKt0AZ4zb3KIAU6-4" value="添加AutowiredAnnotationBeanPostProcessor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2078.5" y="4000" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GdvJMNKt0AZ4zb3KIAU6-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GdvJMNKt0AZ4zb3KIAU6-6" target="GdvJMNKt0AZ4zb3KIAU6-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GdvJMNKt0AZ4zb3KIAU6-6" value="添加internalCommonAnnotationProcessor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GdvJMNKt0AZ4zb3KIAU6-6" value="添加CommonAnnotationBeanPostProcessor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2078.5" y="4140" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GdvJMNKt0AZ4zb3KIAU6-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GdvJMNKt0AZ4zb3KIAU6-8" target="GdvJMNKt0AZ4zb3KIAU6-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GdvJMNKt0AZ4zb3KIAU6-8" value="添加internalPersistenceAnnotationProcessor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GdvJMNKt0AZ4zb3KIAU6-8" value="添加PersistenceAnnotationBeanPostProcessor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1738.5" y="4140" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GdvJMNKt0AZ4zb3KIAU6-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GdvJMNKt0AZ4zb3KIAU6-10" target="GdvJMNKt0AZ4zb3KIAU6-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GdvJMNKt0AZ4zb3KIAU6-10" value="添加internalEventListenerProcessor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GdvJMNKt0AZ4zb3KIAU6-10" value="添加EventListenerMethodPostProcessor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1738.5" y="4000" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GdvJMNKt0AZ4zb3KIAU6-12" value="添加internalEventListenerFactory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GdvJMNKt0AZ4zb3KIAU6-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GdvJMNKt0AZ4zb3KIAU6-12" target="GdvJMNKt0AZ4zb3KIAU6-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GdvJMNKt0AZ4zb3KIAU6-12" value="添加DefaultEventListenerFactory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1738.5" y="3860" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdvJMNKt0AZ4zb3KIAU6-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GdvJMNKt0AZ4zb3KIAU6-14" target="GdvJMNKt0AZ4zb3KIAU6-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GdvJMNKt0AZ4zb3KIAU6-14" value="调用ConfigurationClassPostProcessor.&lt;div&gt;postProcessBeanFactory()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1738.5" y="3720" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GdvJMNKt0AZ4zb3KIAU6-16" value="调用ConfigurationClassPostProcessor.&lt;div&gt;processConfigBeanDefinitions()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1398.5" y="3720" width="260" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
