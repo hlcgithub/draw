@@ -105,6 +105,74 @@
         <mxCell id="nT5g_BG-5DsYh08CZqDm-17" value="查余额" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="1210" width="70" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="nT5g_BG-5DsYh08CZqDm-20" value="" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1380" width="240" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="nT5g_BG-5DsYh08CZqDm-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.957;entryY=0.511;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nT5g_BG-5DsYh08CZqDm-21" target="nT5g_BG-5DsYh08CZqDm-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nT5g_BG-5DsYh08CZqDm-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nT5g_BG-5DsYh08CZqDm-21" target="nT5g_BG-5DsYh08CZqDm-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nT5g_BG-5DsYh08CZqDm-21" value="收款机" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1390" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nT5g_BG-5DsYh08CZqDm-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nT5g_BG-5DsYh08CZqDm-22" target="nT5g_BG-5DsYh08CZqDm-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nT5g_BG-5DsYh08CZqDm-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nT5g_BG-5DsYh08CZqDm-22" target="nT5g_BG-5DsYh08CZqDm-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nT5g_BG-5DsYh08CZqDm-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="nT5g_BG-5DsYh08CZqDm-22" target="nT5g_BG-5DsYh08CZqDm-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nT5g_BG-5DsYh08CZqDm-22" value="管理员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="1510" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nT5g_BG-5DsYh08CZqDm-27" value="登录" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1480" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nT5g_BG-5DsYh08CZqDm-28" value="查看交易流水" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1515" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nT5g_BG-5DsYh08CZqDm-29" value="开户" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1550" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nT5g_BG-5DsYh08CZqDm-30" value="充值" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="344" y="1395" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nT5g_BG-5DsYh08CZqDm-31" value="收款" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="344" y="1430" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nT5g_BG-5DsYh08CZqDm-32" value="查询余额" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="344" y="1470" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nT5g_BG-5DsYh08CZqDm-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nT5g_BG-5DsYh08CZqDm-21" target="nT5g_BG-5DsYh08CZqDm-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nT5g_BG-5DsYh08CZqDm-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nT5g_BG-5DsYh08CZqDm-44" target="nT5g_BG-5DsYh08CZqDm-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="1390" />
+              <mxPoint x="550" y="1410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nT5g_BG-5DsYh08CZqDm-44" value="消费者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1370" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nT5g_BG-5DsYh08CZqDm-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nT5g_BG-5DsYh08CZqDm-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="1410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="1460" />
+              <mxPoint x="550" y="1410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nT5g_BG-5DsYh08CZqDm-45" value="服务员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1450" width="20" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
