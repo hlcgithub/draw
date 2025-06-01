@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="第 1 页" id="5m0DD1IxrQxrbZgEeg06">
-    <mxGraphModel dx="1234" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="649" dy="416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -60,13 +60,11 @@
         <mxCell id="nT5g_BG-5DsYh08CZqDm-2" value="管理中心服务器" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="310" y="1030" width="280" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="nT5g_BG-5DsYh08CZqDm-3" value="卡" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="60" y="1070" width="70" height="60" as="geometry" />
+        <mxCell id="nT5g_BG-5DsYh08CZqDm-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nT5g_BG-5DsYh08CZqDm-3" target="nT5g_BG-5DsYh08CZqDm-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nT5g_BG-5DsYh08CZqDm-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nT5g_BG-5DsYh08CZqDm-3">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="310" y="1100" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="nT5g_BG-5DsYh08CZqDm-3" value="卡" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1050" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nT5g_BG-5DsYh08CZqDm-5" value="登录" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="1080" width="70" height="50" as="geometry" />
@@ -92,7 +90,7 @@
         <mxCell id="nT5g_BG-5DsYh08CZqDm-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nT5g_BG-5DsYh08CZqDm-13" target="nT5g_BG-5DsYh08CZqDm-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nT5g_BG-5DsYh08CZqDm-13" value="消费" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nT5g_BG-5DsYh08CZqDm-13" value="收款" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="1110" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nT5g_BG-5DsYh08CZqDm-15" value="管理员PC" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
