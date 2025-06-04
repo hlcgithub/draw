@@ -173,51 +173,90 @@
         <mxCell id="nT5g_BG-5DsYh08CZqDm-45" value="服务员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
           <mxGeometry x="570" y="1450" width="20" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PzTX2Fa4M-_ysY_TfGGe-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Cache&amp;lt;K, V&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ get(K key): V&lt;br&gt;+ put(K key, V value): Void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ delete(K key):Void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="180" y="1680" width="175" height="150" as="geometry" />
+        <mxCell id="PzTX2Fa4M-_ysY_TfGGe-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Cache&amp;lt;K, V&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ get(K key): V&lt;br&gt;+ put(K key, V value): Void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ delete(K key):Void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="180" y="1680" width="175" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="PzTX2Fa4M-_ysY_TfGGe-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;CacheFactory&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ reBuild(Config config):Void&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="440" y="1700" width="175" height="110" as="geometry" />
+        <mxCell id="PzTX2Fa4M-_ysY_TfGGe-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;CacheFactory&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ reBuild(Config config):Void&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="440" y="1700" width="175" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="PzTX2Fa4M-_ysY_TfGGe-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;LocalCache&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ get(Object key): Object&lt;br&gt;+ put(Object key, Object value): Void&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ delete(Object key):Void&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ reBuild(Config config):Void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="187.5" y="1930" width="160" height="140" as="geometry" />
+        <mxCell id="PzTX2Fa4M-_ysY_TfGGe-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;LocalCache&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ get(Object key): Object&lt;br&gt;+ put(Object key, Object value): Void&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ delete(Object key):Void&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ reBuild(Config config):Void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="187.5" y="1930" width="160" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="PzTX2Fa4M-_ysY_TfGGe-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;RemoteCache&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ get(Object key): Object&lt;br&gt;+ put(Object key, Object value): Void&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ delete(Object key):Void&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ reBuild(Config config):Void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="610" y="1930" width="160" height="140" as="geometry" />
+        <mxCell id="PzTX2Fa4M-_ysY_TfGGe-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;RemoteCache&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ get(Object key): Object&lt;br&gt;+ put(Object key, Object value): Void&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ delete(Object key):Void&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ reBuild(Config config):Void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="610" y="1930" width="160" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="PzTX2Fa4M-_ysY_TfGGe-6" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.459;exitY=0.014;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="PzTX2Fa4M-_ysY_TfGGe-4">
+        <mxCell id="PzTX2Fa4M-_ysY_TfGGe-6" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.459;exitY=0.014;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.469;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="PzTX2Fa4M-_ysY_TfGGe-4" edge="1" target="PzTX2Fa4M-_ysY_TfGGe-2">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="260" y="1920" as="sourcePoint" />
             <mxPoint x="260" y="1830" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PzTX2Fa4M-_ysY_TfGGe-7" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.457;entryY=1.018;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PzTX2Fa4M-_ysY_TfGGe-4" target="PzTX2Fa4M-_ysY_TfGGe-3">
+        <mxCell id="PzTX2Fa4M-_ysY_TfGGe-7" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.457;entryY=1.018;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="PzTX2Fa4M-_ysY_TfGGe-4" target="PzTX2Fa4M-_ysY_TfGGe-3" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="271" y="2002" as="sourcePoint" />
             <mxPoint x="270" y="1890" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PzTX2Fa4M-_ysY_TfGGe-8" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.594;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PzTX2Fa4M-_ysY_TfGGe-5" target="PzTX2Fa4M-_ysY_TfGGe-2">
+        <mxCell id="PzTX2Fa4M-_ysY_TfGGe-8" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.594;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="PzTX2Fa4M-_ysY_TfGGe-5" target="PzTX2Fa4M-_ysY_TfGGe-2" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="261" y="1972" as="sourcePoint" />
             <mxPoint x="260" y="1860" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PzTX2Fa4M-_ysY_TfGGe-9" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.45;exitY=-0.014;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="PzTX2Fa4M-_ysY_TfGGe-5">
+        <mxCell id="PzTX2Fa4M-_ysY_TfGGe-9" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.45;exitY=-0.014;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="PzTX2Fa4M-_ysY_TfGGe-5" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="886" y="1980" as="sourcePoint" />
-            <mxPoint x="520" y="1810" as="targetPoint" />
+            <mxPoint x="520" y="1790" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PzTX2Fa4M-_ysY_TfGGe-10" value="&lt;div&gt;CacheFactory cf = new RemoteCache();&lt;/div&gt;Cache cache = cf.reBuild(config);&lt;div&gt;String value = cache.get(&quot;key1&quot;);&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PzTX2Fa4M-_ysY_TfGGe-10" value="&lt;div&gt;CacheFactory cf = new RemoteCache();&lt;/div&gt;Cache cache = cf.reBuild(config);&lt;div&gt;String value = cache.get(&quot;key1&quot;);&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="2160" width="330" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PzTX2Fa4M-_ysY_TfGGe-11" value="缓存使用伪代码" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="PzTX2Fa4M-_ysY_TfGGe-11" value="缓存使用伪代码" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="170" y="2110" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PzTX2Fa4M-_ysY_TfGGe-14" value="&lt;div&gt;CacheFactory cf = new LocalCache();&lt;/div&gt;Cache cache = cf.reBuild(config);&lt;div&gt;String value = cache.get(&quot;key1&quot;);&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="PzTX2Fa4M-_ysY_TfGGe-14" value="&lt;div&gt;CacheFactory cf = new LocalCache();&lt;/div&gt;Cache cache = cf.reBuild(config);&lt;div&gt;String value = cache.get(&quot;key1&quot;);&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="2240" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QSKXeUE6jTvqU6_DYxdv-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Drawable&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ draw(): Void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="750" y="2300" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QSKXeUE6jTvqU6_DYxdv-4" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.3;entryY=1.057;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="QSKXeUE6jTvqU6_DYxdv-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="730" y="2440" as="sourcePoint" />
+            <mxPoint x="890" y="2430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="730" y="2420" />
+              <mxPoint x="807" y="2420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QSKXeUE6jTvqU6_DYxdv-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;WinForm&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- drawItems: List&amp;lt;Drawable&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ draw(): Void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="650" y="2440" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="QSKXeUE6jTvqU6_DYxdv-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Frame&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;drawItems&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: List&amp;lt;Drawable&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ draw(): Void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="880" y="2440" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="QSKXeUE6jTvqU6_DYxdv-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Button&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ draw(): Void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="760" y="2580" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QSKXeUE6jTvqU6_DYxdv-9" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.563;entryY=1.057;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="QSKXeUE6jTvqU6_DYxdv-7" target="QSKXeUE6jTvqU6_DYxdv-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="840" y="2490" as="sourcePoint" />
+            <mxPoint x="955" y="2420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="960" y="2420" />
+              <mxPoint x="920" y="2420" />
+              <mxPoint x="857" y="2420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QSKXeUE6jTvqU6_DYxdv-10" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.463;entryY=1.043;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="QSKXeUE6jTvqU6_DYxdv-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="840" y="2570" as="sourcePoint" />
+            <mxPoint x="1000" y="2570" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
