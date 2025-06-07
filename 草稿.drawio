@@ -267,10 +267,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Lf0BR-QkIVGVN5nlx9LU-2" value="微信小程序" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="710" y="410" width="180" height="120" as="geometry" />
+          <mxGeometry x="670" y="370" width="220" height="160" as="geometry" />
         </mxCell>
         <mxCell id="Lf0BR-QkIVGVN5nlx9LU-3" value="司机APP" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="710" y="585" width="180" height="120" as="geometry" />
+          <mxGeometry x="710" y="585" width="210" height="125" as="geometry" />
         </mxCell>
         <mxCell id="Lf0BR-QkIVGVN5nlx9LU-4" value="订单服务&amp;nbsp;双机" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1151" y="380" width="180" height="120" as="geometry" />
@@ -322,6 +322,9 @@
         <mxCell id="Lf0BR-QkIVGVN5nlx9LU-21" value="车辆管理" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1161" y="191" width="80" height="49" as="geometry" />
         </mxCell>
+        <mxCell id="Lf0BR-QkIVGVN5nlx9LU-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="Lf0BR-QkIVGVN5nlx9LU-22" target="Lf0BR-QkIVGVN5nlx9LU-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Lf0BR-QkIVGVN5nlx9LU-22" value="订单管理" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1161" y="260" width="80" height="49" as="geometry" />
         </mxCell>
@@ -335,7 +338,7 @@
           <mxGeometry x="1171" y="591" width="80" height="49" as="geometry" />
         </mxCell>
         <mxCell id="Lf0BR-QkIVGVN5nlx9LU-26" value="下单界面" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="451" width="80" height="49" as="geometry" />
+          <mxGeometry x="680" y="415.5" width="80" height="49" as="geometry" />
         </mxCell>
         <mxCell id="Lf0BR-QkIVGVN5nlx9LU-27" value="接单界面" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="621" width="80" height="49" as="geometry" />
@@ -363,6 +366,18 @@
         </mxCell>
         <mxCell id="Lf0BR-QkIVGVN5nlx9LU-35" value="系统通知" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1340" y="122" width="80" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="Lf0BR-QkIVGVN5nlx9LU-36" value="个人中心" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="391" width="80" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="Lf0BR-QkIVGVN5nlx9LU-37" value="登录" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="191" width="80" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="Lf0BR-QkIVGVN5nlx9LU-38" value="个人中心" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="805" y="620.5" width="80" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="Lf0BR-QkIVGVN5nlx9LU-39" value="司机佣金计算" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="260" width="80" height="49" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
